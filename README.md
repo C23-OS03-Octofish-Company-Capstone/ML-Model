@@ -15,12 +15,19 @@
 5. Improve the model;
 6. Choose the best model;
 
-## Step of building freshness detection model:
+## How To Use:
 1. Download or clone the repository at https://github.com/C23-OS03-Octofish-Company-Capstone/ML-Model.git
 2. Open the notebook on your VS Code(by using jupyter notebook) or you can open it on Google Colab
 3. For freshness detection change 'root_dir' value to your dataset directory and at 'Define paths' define each classes path directory. At 'split_size' you can define proportion of images used for training.
 4. For price prediction change the dataset path at 'pd.read_csv' (need to be csv that contain column named 'Harga'), at 'class G' you can change 'SPLIT_TIME'(proportion of data used for training), 'WINDOW_SIZE'(length of historical data considered for predictions), 'BATCH_SIZE', and 'SHUFFLE_BUFFER_SIZE' that work with your data.
 5. After training the model you can save it by running the last cell (model.save).
+
+## Requirement:
+1. Python
+2. Jupyter Notebook
+3. Tensorflow
+4. Pandas
+5. Numpy
 
 ## Result:
 ### Fish Freshness Detection
