@@ -28,6 +28,7 @@
 3. Tensorflow
 4. Pandas
 5. Numpy
+6. Matplotlib
 
 ## Result:
 ### Fish Freshness Detection
